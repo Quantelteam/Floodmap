@@ -1,0 +1,5 @@
+# Optional: faster / more exact terrain analysis (pip install -r requirements-optional.txt).
+# Without them the pipeline falls back to numpy finite differences and a simple D8 flow
+# accumulation. These packages often lack Windows wheels, hence they are not core.
+richdem>=0.3
+pysheds>=0.4
